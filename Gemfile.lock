@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ghost (1.0.0.pre.2)
+      unindent (= 1.0)
+    sys-host (0.6.2)
+    unindent (1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ghost (= 1.0.0.pre.2)
+  sys-host
