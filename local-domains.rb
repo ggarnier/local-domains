@@ -5,7 +5,7 @@ def add_domain(domain, ip=nil)
   ip ||= Sys::Host.ip_addr.first
   host = Ghost::Host.new(domain, ip)
   puts "adding '#{domain}' to '#{ip}'"
-  Ghost.store.add(host)
+  Ghost.store.set(host)
 end
 
 CONFIGURATION_FILE = "#{ENV["HOME"]}/.local-domains"
