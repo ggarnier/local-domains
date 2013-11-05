@@ -23,7 +23,15 @@ domains, one on each line (see .local-domains.example)
 
 Run it with rvmsudo
 
-    rvmsudo ruby local-domains.rb <ip address>
+    rvmsudo local-domains <ip address>
 
 If the ip address is omitted, domains will be mapped to the first local ip
 address
+
+## TODO
+
+  * tests!
+  * run without rvmsudo (`sudo ...` runs as root user, doesn't find required gems)
+  * better error checking
+  * verbose option
+  * help message
