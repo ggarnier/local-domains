@@ -21,7 +21,11 @@ Or install it yourself as:
 Create a .local-domains file in your home directory, with a list of
 domains, one on each line (see .local-domains.example)
 
-Run it with rvmsudo
+Run it with *sudo*:
+
+    sudo local-domains <ip address>
+
+Or, if you use [RVM](http://rvm.io), use *rvmsudo*:
 
     rvmsudo local-domains <ip address>
 
@@ -31,7 +35,6 @@ address
 ## TODO
 
   * tests!
-  * run without rvmsudo (`sudo ...` runs as root user, doesn't find required gems)
   * better error checking
   * verbose option
   * help message
