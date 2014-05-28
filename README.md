@@ -29,6 +29,10 @@ Or, if you use [RVM](http://rvm.io), use *rvmsudo*:
 
     rvmsudo local-domains <ip address>
 
+To run on a specific Ruby version and gemset:
+
+    rvm ruby-2.0.0-p481@gemset-name do rvmsudo local-domains <ip address>
+
 If the ip address is omitted, domains will be mapped to the first local ip
 address
 
